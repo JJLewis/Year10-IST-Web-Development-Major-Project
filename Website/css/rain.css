@@ -1,0 +1,14 @@
+/*
+* The Rain
+*/
+.circle {
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+    background-color: #ff6a00;
+    z-index: -1;
+}
+.circle:hover {
+    background-color: #df4a00;
+    opacity: 0.75;
+}

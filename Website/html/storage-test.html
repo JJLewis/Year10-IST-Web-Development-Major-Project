@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!-- Created Saturday 20 September 2014 -->
+<!-- By Jordan Lewis -->
+<html>
+    <head lang="en">
+        <meta charset="utf-8" />
+        <title>Test Your Knowledge</title>
+                
+        <script type="text/javascript" language="Javascript" src="../js/jquery-1.11.1.js"></script>
+	 	<script type="text/javascript" language="Javascript" src="../js/global-elements.js"></script>
+        <link href='../css/dnd.css' rel='stylesheet' type='text/css' />
+        <script type="text/javascript" language="Javascript" src="../js/dnd-test.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <article class="no-aside">
+                <h1 style="text-align: center;">Test Your Knowledge - Storage Types</h1>
+                <h2 style="width: 972px; margin: auto;">How To</h2>
+                <p style="width: 972px; margin: auto;">
+                    To test your knowledge, simply drag and drop the orange rounded rectangles onto the grey rounded rectangles with the correct categroy of storage type. Note that one medium of storage can be in two different sections. A there will be a total of ten objects from all of the sections. Once you think you have categorised all of the objects, click the <b>Check Your Answers</b> button to get a percentage mark.<br />
+                    You can remove objects from sections by clicking the delete button next to the object in the section.<br />
+                    You can also restart by clicking the <b>Reset</b> button.
+                </p>
+                <p>&nbsp;</p>
+                <ul class="draggables">
+                    <li>
+                        <div id="SSD" class="draggable" draggable="true">
+                            <h1>SSD</h1>
+                            <p>
+                                <img src="../src/img/Storage-&-Processing/Storage/SSD.jpg" class=""/>
+                                A very fast storage medium but comes with a trade off.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="HDD" class="draggable" draggable="true">
+                            <h1>HDD</h1>
+                            <p>
+                                <img src="../src/img/Anatomy-of-Computer/HDD.jpg" class=""/>
+                                Slower than an SSD but comes with much more storage.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="USB" class="draggable" draggable="true">
+                            <h1>USB</h1>
+                            <p>
+                                <img src="../src/img/Storage-&-Processing/Storage/USB.jpg" class=""/>
+                                This thingo plugs into computers for some portable storage.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="ROM" class="draggable" draggable="true">
+                            <h1>RAM</h1>
+                            <p>
+                                <img src="../src/img/Anatomy-of-Computer/RAM.jpg" class=""/>
+                                The more the better, more working room for your programs.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="RAM" class="draggable" draggable="true">
+                            <h1>ROM</h1>
+                            <p>
+                                <img src="../src/img/Storage-&-Processing/Storage/ROM.jpg" class=""/>
+                                Aaah, back in the day when this was pretty much it.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="Cache" class="draggable" draggable="true">
+                            <h1>Cache</h1>
+                            <p>
+                                <img src="../src/img/Storage-&-Processing/Storage/CPU-Cache.jpg" class=""/>
+                                The bigger the better, size matters.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+                <ul class="destinationables">
+                    <li>
+                        <div id="volatile" class="destination">
+                            <h1>Volatile</h1>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="non-volatile" class="destination">
+                            <h1>Non-Volatile</h1>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="primary" class="destination">
+                            <h1>Primary</h1>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="secondary" class="destination">
+                            <h1>Secondary</h1>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+                <a id="check" class="button">Check Your Answers</a>
+                <a id="reset" class="button" style="top: 50px; margin-left: 44.5%; margin-right:44.5%;">Reset</a>
+                <!--<h2 class="mark">Mark: 0%</h2>-->
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </article>
+        </div>
+    </body>
+</html>
